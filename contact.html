@@ -17,6 +17,33 @@
 <link rel="stylesheet" href="/css/style-personal.css">
 </head>
 <body>
+	<!-- Load Facebook SDK for JavaScript -->
+			<div id="fb-root"></div>
+			<script>
+				window.fbAsyncInit = function() {
+					FB.init({
+						xfbml            : true,
+						version          : 'v8.0'
+					});
+				};
+
+				(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
+			<!-- Your Chat Plugin code -->
+			<div class="fb-customerchat"
+				attribution=setup_tool
+				page_id="108111717422826"
+	theme_color="#ff7573"
+	logged_in_greeting="Hallo, kan ik je ergens mee helpen?"
+	logged_out_greeting="Hallo, kan ik je ergens mee helpen?">
+			</div>
+
 
 	<header id="top" class="navbar">
 
@@ -79,7 +106,7 @@
 	  <h1>Koffietje doen?</h1>
 
 
-		<p>Heb je vragen over storytelling en ben je benieuwd of ik jou daarmee kan helpen? Heb je mooie verhalen liggen, maar is er geen tijd om ze goed te vertellen? Laten we praten om te zien of ik jou kan helpen.</p>
+		<p>Heb je vragen over storytelling en ben je benieuwd of ik jou daarmee kan helpen? Heb je mooie verhalen liggen, maar is er geen tijd om ze goed te vertellen? Laten we praten om te zien wat ik voor jou kan betekenen.</p>
 		<p> Wil je zelf leren om video's te maken met je smartphone? Ook dan zit je hier goed. Stuur mij een mailtje en we spreken snel af. In het echt of virtueel </p>.
 
 
