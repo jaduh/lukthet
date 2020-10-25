@@ -1724,6 +1724,10 @@ body .extra-margin-top {
 	background-color: #fff;
 }
 
+.yellow-top{
+	background-color: #ffeda6 !important;
+}
+
 .site-title h1 {
 	margin-bottom: 0;
 	font-size: 1em;
@@ -1813,12 +1817,15 @@ body .extra-margin-top {
 /* 9. Content section */
 #content {
 	padding-bottom: 1.5rem;
+	padding-top:3rem;
 }
 
 #content.white-background {
 	background-color: #fff;
 }
-
+#content.yellow-background {
+	background-color: #ffeda6;
+}
 .page-title-container {
 	max-width: 80%;
 	margin-left: auto;
