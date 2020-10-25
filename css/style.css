@@ -1721,12 +1721,10 @@ body .extra-margin-top {
 #top {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
-	background-color: #fff;
+	background-color: #fef6f1;
 }
 
-.yellow-top{
-	background-color: #ffeda6 !important;
-}
+
 
 .site-title h1 {
 	margin-bottom: 0;
@@ -1821,7 +1819,7 @@ body .extra-margin-top {
 }
 
 #content.white-background {
-	background-color: #fff;
+	background-color: #fef6f1;
 }
 #content.yellow-background {
 	background-color: #ffeda6;
