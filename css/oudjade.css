@@ -15,14 +15,14 @@ body{
 h1,
 h2,
 h3 {
-	font-family: 'Merriweather', sans-serif;
-	color: #262a2c;
+  font-family: 'Anton', sans-serif;
+  color: #3b64e2;
 }
 
 
 .divider h1{
-  font-size: 3rem;
-    line-height: normal;
+  font-size: 4rem;
+    line-height: 98%;
     text-align: left;
     -webkit-hyphens: none;
         -moz-hyphens:    none;
