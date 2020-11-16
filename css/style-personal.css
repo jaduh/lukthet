@@ -28,3 +28,11 @@ body{
    top: 0;
    width: 90%;
 }
+
+.smaller{
+  width: 50%;
+}
+@media (max-width: 1000px) {
+	.smaller {
+		width: 80%;
+	}
