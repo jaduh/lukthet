@@ -7,7 +7,7 @@
 
 
 body{
- background-color: #fef6f1;
+ background-color: #e0eeff;
 
 
 }
@@ -62,12 +62,17 @@ padding: 2rem;
 }
 
 
-
+.kleiner video{
+  max-width: 30vw;
+}
 
 .enters{
   display: block;
 }
 
+.homepage-kop{width: 100vw;
+  flex-direction: column;
+}
 .center{
   display: flex;
   justify-content: center;
