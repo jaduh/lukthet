@@ -374,14 +374,14 @@ h6 a {
 h1,
 h2,
 h3 {
-	font-family: 'Anton', sans-serif;
+	font-family: "Anton", sans-serif;
 	color: #3b64e2;
 }
 
 h4,
 h5,
 h6 {
-	font-family: 'Rubik', sans-serif;
+	font-family: "Rubik", sans-serif;
 	color: #262a2c;
 }
 
@@ -2216,7 +2216,7 @@ h1, h2{
 
 .project-thumb .project-thumb-details .title {
 	display: block;
-	font-family: 'Anton', sans-serif;
+	font-family: "Anton", sans-serif;
 	font-size: 1.4rem;
 	line-height: 2.2rem;
 	color: #262a2c;
