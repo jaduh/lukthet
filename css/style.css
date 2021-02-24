@@ -1722,7 +1722,7 @@ body .extra-margin-top {
 #top {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
-	background-color: #e6ebf1;
+	background-color: #ffd6ce;
 }
 
 #top-wit{
@@ -1829,7 +1829,7 @@ h1, h2{
 }
 
 #content.white-background {
-	background-color: #fef6f1;
+	background-color: #ffd6ce;
 }
 #content.yellow-background {
 	background-color: #ffeda6;
