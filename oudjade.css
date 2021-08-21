@@ -1,0 +1,199 @@
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+body{
+ background-color: #e0eeff;
+ height: 100vh;
+
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Rubik", sans-trif;
+  color: #2c3e50;
+}
+
+
+img{
+  margin: 1rem;
+}
+
+.divider h1{
+  font-size: 4rem;
+    line-height: 98%;
+    text-align: left;
+    -webkit-hyphens: none;
+        -moz-hyphens:    none;
+        -ms-hyphens:     none;
+        hyphens:         none;
+
+}
+
+.divider p{
+  font-size: 1.2rem;
+}
+.divider{
+        display: flex;
+
+        max-width: 90%;
+      	margin-left: auto;
+      	margin-right: auto;
+
+      	text-align: justify;
+      }
+section{
+width: 100vw;
+height: 100vh;
+}
+
+.center-mob{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+margin: 0 2rem;
+padding: 2rem;
+
+
+
+}
+
+.checklist{
+ 
+    list-style: none;
+  
+}
+
+.checklist li:before {
+  content: '✓';
+}
+
+.kleiner video{
+  max-width: 30vw;
+}
+
+.enters{
+  display: block;
+}
+
+.homepage-kop{width: 100vw;
+  flex-direction: column;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ruimte{
+  margin: 1rem;;
+}
+.homepage-foto{
+margin: 1rem;
+width: 50%;
+
+}
+
+.white-background{
+  background: white;
+  width: 100vw;
+}
+
+.wit-kader{
+  background: white;
+  padding:1rem;
+  box-shadow: 10px 8px#dbbeb8;
+  
+}
+.contact-foto{
+
+  display: flex;
+  flex-direction: column;
+
+
+
+  width: 70%;
+    height: 90%;
+  background:  url("../images-nieuw/koffie.jpg");
+
+    background-position: top;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+
+.homepage-foto{
+display: flex;
+flex-direction: column;
+
+
+
+width: 70%;
+  height: 90%;
+
+height: 50%;
+
+  background:  url("../images-nieuw/ik.JPG");
+
+    
+
+}
+
+.nieuwsbrief-uitleg{
+
+  padding: .5rem 7rem .5rem 7rem;
+    font-size: 2rem;
+  margin: .5rem 2rem;
+
+
+
+  }
+
+
+  @media (max-device-width:600px) {
+    
+  h1{
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+
+@media (max-device-width:900px) {
+  .divider{
+
+      flex-direction: column;
+
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+
+  }
+h1{
+  font-size: 3rem;
+  line-height: normal;
+}
+
+}
+
+@media (max-device-width:1000px) {
+  .divider h1{
+    font-size: 2.5rem;
+    line-height: normal;
+  }
+
+
+  }
+
+  .wit-kader{
+    margin: 1rem;
+
+  }
+  }
