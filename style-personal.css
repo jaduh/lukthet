@@ -1,0 +1,80 @@
+/* place your custom code here */
+
+body{
+background: #e6ebf1;
+}
+
+
+.homepage-container{
+  margin: 0 1rem 1rem 1rem;
+  hyphens: none;
+}
+
+.homepage-container p,h2{
+  margin-bottom: 0;
+}
+
+ .center1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5rem;
+}
+
+
+.blue-background{
+  background:
+   #e6ebf2;}
+
+
+.paars{
+  color: #3b64e2;
+}
+.pink{
+  color: #ff7473;
+}
+
+.doorgestreept{
+  text-decoration: line-through;
+}
+.onderstreept{
+text-decoration: underline;
+}
+
+.enter{
+  display: block;
+}
+.iframe-container{
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.no-wordbreak{ hyphens: none;
+
+}
+.left{
+  text-align: left;
+}
+
+.left li{
+  padding: .5rem;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 90%;
+}
+
+.smaller{
+  width: 50%;
+}
+@media (max-width: 1000px) {
+	.smaller {
+		width: 80%;
+	}
